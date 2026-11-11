@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Notes Migrator Basic",
+  "version": "1.0.0",
+  "description": "Exports notes and highlights from Zotero (My Library) to an Obsidian vault as Markdown. Read-only for Zotero. Polish and English.",
+  "author": "belferIR",
+  "homepage_url": "https://github.com/belferIR/notes-migrator-basic",
+  "applications": {
+    "zotero": {
+      "id": "notes-migrator-basic@belferir.github.io",
+      "update_url": "https://raw.githubusercontent.com/belferIR/notes-migrator-basic/main/updates.json",
+      "strict_min_version": "7.0",
+      "strict_max_version": "10.*"
+    }
+  }
+}

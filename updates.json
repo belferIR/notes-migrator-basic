@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "notes-migrator-basic@belferir.github.io": {
+      "updates": [
+        {
+          "version": "1.0.0",
+          "update_link": "https://github.com/belferIR/notes-migrator-basic/releases/download/v1.0.0/notes-migrator-basic-1.0.0.xpi",
+          "update_hash": "sha256:6e5475a4ba1f718b9655f6e3233e965855e45bccf98839f93b17bad68bf4e5c2",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "7.0",
+              "strict_max_version": "10.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

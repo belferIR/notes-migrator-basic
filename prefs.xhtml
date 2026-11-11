@@ -1,0 +1,35 @@
+<vbox id="nmb-prefs" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+      xmlns:html="http://www.w3.org/1999/xhtml">
+  <!-- Panel opcji Notes Migrator Basic. Napisy wstawia prefs.js w języku wtyczki. -->
+  <groupbox>
+    <html:p id="nmb-intro"></html:p>
+
+    <html:h3 id="nmb-vault-label"></html:h3>
+    <hbox align="center">
+      <html:input id="nmb-vault-path" type="text" readonly="true" style="flex: 1; min-width: 300px;"/>
+      <html:button id="nmb-choose"></html:button>
+    </hbox>
+
+    <html:h3 id="nmb-lang-label"></html:h3>
+    <html:select id="nmb-lang">
+      <html:option value="auto" id="nmb-lang-auto"></html:option>
+      <html:option value="pl" id="nmb-lang-pl"></html:option>
+      <html:option value="en" id="nmb-lang-en"></html:option>
+    </html:select>
+    <html:p id="nmb-lang-hint" style="opacity: .75; font-size: .9em;"></html:p>
+
+    <html:label style="display: block; margin-top: 10px;">
+      <html:input type="checkbox" id="nmb-pdf"/> <html:span id="nmb-pdf-label"></html:span>
+    </html:label>
+    <html:p id="nmb-pdf-hint" style="opacity: .75; font-size: .9em;"></html:p>
+
+    <html:h3 id="nmb-colors-label"></html:h3>
+    <html:p id="nmb-colors-hint" style="opacity: .75; font-size: .9em;"></html:p>
+    <html:table id="nmb-colors" style="border-collapse: collapse;"></html:table>
+    <hbox style="margin-top: 8px;">
+      <html:button id="nmb-sample"></html:button>
+      <html:button id="nmb-reset"></html:button>
+    </hbox>
+    <html:p id="nmb-refresh" style="opacity: .75; font-size: .9em;"></html:p>
+  </groupbox>
+</vbox>
